@@ -1,0 +1,96 @@
+/* Everything */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+/* Header (navigationbar) */
+.navigationbar {
+  min-height: 15vh;
+  background: #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 6%;
+  align-items: center;
+}
+
+.navigationbar ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 30px;
+}
+
+.navigationbar ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 4px 0px;
+  letter-spacing: 0.2rem;
+}
+
+.logo {
+  height: 50px;
+}
+
+.section-home-front {
+  height: 85vh;
+  padding: 5vw;
+  display: flex;
+}
+
+.section-hometext {
+  width: 50vw;
+}
+
+.section-homepicture {
+  width: 50vw;
+}
+
+#homepicture {
+  height: 400px;
+  display: block;
+  margin: auto;
+}
+
+#joeribreedveld {
+  font-size: 6rem;
+  font-weight: 500;
+}
+
+#welcome {
+  font-weight: 500;
+  color: darkgray;
+  letter-spacing: 0.5rem;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+#webdeveloper {
+  letter-spacing: 0.1rem;
+  font-size: 2.4rem;
+  margin-top: 30px;
+  color: #304d75;
+}
+
+.section-hometext ul li {
+  font-size: 2rem;
+  margin: 20px 0;
+  list-style: none;
+  letter-spacing: 0.2rem;
+  border-bottom: 4px solid lightskyblue;
+  width: min-content;
+  padding-bottom: 5px;
+}
+
+/* Cards */
+.section-homecards {
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+
+/* Footer */
+footer {
+  height: 40vh;
+}
